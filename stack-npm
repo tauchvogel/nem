@@ -33,4 +33,4 @@ services:
       MYSQL_USER: 'baton'
       MYSQL_PASSWORD: 'Obermoerlen1.'
     volumes:
-      - ./data/mysql:/var/lib/mysql
+      - ./mysql:/var/lib/mysql
